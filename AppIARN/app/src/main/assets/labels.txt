@@ -1,0 +1,10 @@
+Tomate__acaros
+Tomate__hoja_moho
+Tomate__mancha_bacteriana
+Tomate__mancha_diana
+Tomate__mancha_septoria_foliar
+Tomate__saludable
+Tomate__tizon_tardio
+Tomate__tizon_temprano
+Tomate__virus_mosaico
+Tomate__virus_rizado_amarillo

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_principal">
+
+    <TextView
+        android:id="@+id/TituloA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROYECTO IA.  RECONOCIMIENTO PLANTAS"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colortexto"
+        android:shadowColor="#B4CF66"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_border"
+        android:text="📷 Cámara"
+        android:textSize="19dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/pickButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_border"
+        android:text="🖼️ Galería"
+        android:textSize="19dp"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/image_border"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/analyzeButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_border"
+        android:text="🔍 Analizar Hoja"
+        android:textSize="19dp"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Analisis:"
+            android:textSize="16sp"
+            android:textColor="#E0E0E0"
+            android:paddingStart="8dp"
+            android:maxWidth="280dp" />
+    </LinearLayout>
+
+</LinearLayout>
