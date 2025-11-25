@@ -35,7 +35,7 @@ La app funciona **sin conexión a Internet**, ya que toda la inferencia se reali
 ---
 
 ## 📂 Estructura del Proyecto
-
+```txt
 📦 AppIARN
 │
 ├── dataset/ # Imágenes de las hojas
@@ -48,4 +48,10 @@ La app funciona **sin conexión a Internet**, ya que toda la inferencia se reali
 │ ├── app/src/main/java/ # Código fuente Android
 │ ├── app/src/main/res/ # Layouts, íconos, recursos y modelos
 │ └── build.gradle
+```
+---
+
+# Creadores: 
+Este proyecto fue realizado por Jonathan Villafuerte y Johan  Curiccho , quienes implementaron y entrenaron el modelo.
+---
 
